@@ -212,6 +212,8 @@ function App() {
       <ul className="capability-list">
         <li>Service-Disabled Veteran-Owned Small Business</li>
         <li>Active SAM.gov Registered Contractor</li>
+        <li>UEI: CQDXUTM5KW31</li>
+        <li>CAGE Code: 9MQW1</li>
         <li>Responsive and Scalable Service Model</li>
         <li>Rapid Communication & Coordination</li>
         <li>Flexible Teaming & Subcontracting Readiness</li>
