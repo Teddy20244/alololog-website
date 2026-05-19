@@ -182,6 +182,7 @@ function App() {
             <p><strong>484230:</strong> Specialized Freight Trucking, Long-Distance</p>
             <p><strong>423610:</strong> Electrical Apparatus and Equipment Merchant Wholesalers</p>
             <p><strong>335999:</strong> All Other Miscellaneous Electrical Equipment and Component Manufacturing</p>
+            <p><strong>PPE:</strong> Personal Protective Equipment, safety supplies, gloves, masks, facility safety support, and government supply fulfillment</p>
           </div>
         </section>
 
