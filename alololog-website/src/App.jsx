@@ -222,6 +222,43 @@ function App() {
     </div>
   </div>
 </section>
+        <section className="section container">
+  <div className="naics-card">
+    <h2>Government Registration</h2>
+
+    <div className="diff-grid" style={{ marginTop: '24px' }}>
+      <div className="mini-card">
+        <FileCheck size={20} />
+        <span>Active SAM.gov Registered Contractor</span>
+      </div>
+
+      <div className="mini-card">
+        <ShieldCheck size={20} />
+        <span>Service-Disabled Veteran-Owned Small Business (SDVOSB)</span>
+      </div>
+
+      <div className="mini-card">
+        <Building2 size={20} />
+        <span>UEI: CQDXUTM5KW31</span>
+      </div>
+
+      <div className="mini-card">
+        <CheckCircle size={20} />
+        <span>CAGE Code: 9MQW1</span>
+      </div>
+
+      <div className="mini-card">
+        <Truck size={20} />
+        <span>Accepting Government & Subcontracting Opportunities</span>
+      </div>
+
+      <div className="mini-card">
+        <Sparkles size={20} />
+        <span>Janitorial, Logistics, PPE & Facility Support Services</span>
+      </div>
+    </div>
+  </div>
+</section>
         <section className="cta">
           <div className="container cta-inner">
             <div>
