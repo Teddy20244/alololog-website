@@ -198,7 +198,9 @@ function App() {
             </p>
             <div className="contact-list">
               <p><Mail size={20} /> info@alololog.com</p>
-              <p><Phone size={20} /> Add business phone number</p>
+              <p><Mail size={20} /> bids@alololog.com</p>
+              <p><Mail size={20} /> contracts@alololog.com</p>
+              <p><Phone size={20} /> (817) 680-3339 </p>
               <p><MapPin size={20} /> Texas-based | Serving government and commercial clients</p>
             </div>
           </div>
