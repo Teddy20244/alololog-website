@@ -185,7 +185,41 @@ function App() {
             <p><strong>PPE:</strong> Personal Protective Equipment, safety supplies, gloves, masks, facility safety support, and government supply fulfillment</p>
           </div>
         </section>
+        <section className="section container">
+  <div className="section-heading">
+    <p className="eyebrow">Capability Statement</p>
+    <h2>Mission-ready operational support capabilities.</h2>
+    <p>
+      Alolo Logistics LLC provides dependable government and commercial operational support services with a focus on janitorial services, logistics, PPE fulfillment, and facility support coordination.
+    </p>
+  </div>
 
+  <div className="service-grid">
+    <div className="service-card featured">
+      <h3>Core Capabilities</h3>
+      <ul className="capability-list">
+        <li>Commercial & Government Janitorial Services</li>
+        <li>Facility Cleaning & Sanitation Support</li>
+        <li>PPE & Safety Supply Fulfillment</li>
+        <li>Freight & Logistics Coordination</li>
+        <li>Pest Control Coordination Services</li>
+        <li>Government Contract Support</li>
+      </ul>
+    </div>
+
+    <div className="service-card">
+      <h3>Differentiators</h3>
+      <ul className="capability-list">
+        <li>Service-Disabled Veteran-Owned Small Business</li>
+        <li>Active SAM.gov Registered Contractor</li>
+        <li>Responsive and Scalable Service Model</li>
+        <li>Rapid Communication & Coordination</li>
+        <li>Flexible Teaming & Subcontracting Readiness</li>
+        <li>Texas-Based Operational Support</li>
+      </ul>
+    </div>
+  </div>
+</section>
         <section className="cta">
           <div className="container cta-inner">
             <div>
