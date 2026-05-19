@@ -81,6 +81,13 @@ function App() {
               <p className="hero-text">
                 Alolo Logistics LLC helps agencies, facilities, and private organizations keep operations clean, supplied, compliant, and moving. Our primary focus is dependable janitorial service, supported by logistics, pest control coordination, and supply capabilities.
               </p>
+              <a
+                className="btn btn-secondary large"
+                href="/alolo-capability-statement.docx"
+                download
+              >
+                Download Capability Statement
+            </a>
               <div className="button-row">
                 <a className="btn btn-primary large" href="#contact">Discuss a Contract Opportunity <ArrowRight size={18} /></a>
                 <a className="btn btn-secondary large" href="#services">View Core Services</a>
