@@ -205,8 +205,29 @@ function App() {
             </div>
           </div>
 
-          <div className="opportunity-card">
-            <h3>Opportunity checklist</h3>
+          <form className="opportunity-card" action=https://formspree.io/f/xqejaygk method="POST">
+  <h3>Request a Quote</h3>
+
+  <input name="name" placeholder="Your Name" required />
+  <input name="company" placeholder="Company / Agency Name" />
+  <input name="email" type="email" placeholder="Email Address" required />
+  <input name="phone" placeholder="Phone Number" />
+
+  <select name="service" required>
+    <option value="">Select Service Needed</option>
+    <option value="Janitorial Services">Janitorial Services</option>
+    <option value="Pest Control Support">Pest Control Support</option>
+    <option value="Freight / Logistics">Freight / Logistics</option>
+    <option value="Electrical Supply Support">Electrical Supply Support</option>
+    <option value="Government Contract / RFQ">Government Contract / RFQ</option>
+  </select>
+
+  <textarea name="message" placeholder="Describe the opportunity, location, deadline, or scope of work" required></textarea>
+
+  <button className="btn btn-primary large" type="submit">
+    Submit Quote Request
+  </button>
+</form>
             {[
               'Facility type and address',
               'Cleaning frequency and required hours',
