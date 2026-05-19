@@ -205,7 +205,7 @@ function App() {
             </div>
           </div>
 
-          <form className="opportunity-card" action=https://formspree.io/f/xqejaygk method="POST">
+          <form className="opportunity-card" action="https://formspree.io/f/xqejaygk" method="POST">
   <h3>Request a Quote</h3>
 
   <input name="name" placeholder="Your Name" required />
