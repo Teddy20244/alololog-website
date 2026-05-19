@@ -444,3 +444,13 @@ footer {
   border: none;
   cursor: pointer;
 }
+.capability-list {
+  margin-top: 18px;
+  padding-left: 18px;
+  color: #cbd5e1;
+  line-height: 1.9;
+}
+
+.capability-list li {
+  margin-bottom: 8px;
+}
