@@ -228,19 +228,6 @@ function App() {
     Submit Quote Request
   </button>
 </form>
-            {[
-              'Facility type and address',
-              'Cleaning frequency and required hours',
-              'Square footage and special requirements',
-              'Contract deadline or proposal due date',
-              'Set-aside status, NAICS code, and solicitation number',
-            ].map((item) => (
-              <div className="check-row" key={item}>
-                <CheckCircle size={20} />
-                <span>{item}</span>
-              </div>
-            ))}
-          </div>
         </section>
       </main>
 
