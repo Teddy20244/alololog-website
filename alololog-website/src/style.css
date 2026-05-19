@@ -415,3 +415,32 @@ footer {
   border: none;
   cursor: pointer;
 }
+.opportunity-card input,
+.opportunity-card select,
+.opportunity-card textarea {
+  width: 100%;
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(15,23,42,0.85);
+  color: white;
+  font: inherit;
+}
+
+.opportunity-card textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.opportunity-card input::placeholder,
+.opportunity-card textarea::placeholder {
+  color: #94a3b8;
+}
+
+.opportunity-card button {
+  width: 100%;
+  margin-top: 16px;
+  border: none;
+  cursor: pointer;
+}
