@@ -27,6 +27,12 @@ const services = [
     naics: 'NAICS: 423610 / 335999',
     description: 'Sourcing and supply support for electrical apparatus, wiring supplies, components, and miscellaneous electrical equipment needs.',
   },
+  {
+  icon: ShieldCheck,
+  title: 'PPE & Safety Supply Support',
+  naics: 'Supply Capability',
+  description: 'Sourcing and fulfillment support for personal protective equipment, safety supplies, gloves, masks, protective gear, and facility safety needs for government and commercial clients.',
+},
 ];
 
 const janitorialCapabilities = [
@@ -219,6 +225,7 @@ function App() {
     <option value="Pest Control Support">Pest Control Support</option>
     <option value="Freight / Logistics">Freight / Logistics</option>
     <option value="Electrical Supply Support">Electrical Supply Support</option>
+    <option value="PPE / Safety Supplies">PPE / Safety Supplies</option>
     <option value="Government Contract / RFQ">Government Contract / RFQ</option>
   </select>
 
