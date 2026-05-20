@@ -58,10 +58,14 @@ function App() {
     <div className="site">
       <header className="header">
         <div className="container nav">
-          <div>
-            <p className="brand">Alolo Logistics LLC</p>
-            <p className="domain">Alololog.com</p>
+          <div className="logo-wrap">
+          <img src="/alolo-logo.png" alt="Alolo Logistics LLC Logo" className="site-logo" />
+
+        <div>
+          <p className="brand">Alolo Logistics LLC</p>
+          <p className="domain">Alololog.com</p>
           </div>
+      </div>
           <nav className="navlinks">
             <a href="#services">Services</a>
             <a href="#janitorial">Janitorial</a>
