@@ -512,3 +512,14 @@ footer {
   margin-bottom: 18px;
   font-size: 1.4rem;
 }
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sdvosb-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
