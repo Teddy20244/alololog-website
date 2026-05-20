@@ -99,6 +99,28 @@ function App() {
             </div>
 
             <div className="hero-card">
+              <img
+              src="/cleaning-crew.png"
+              alt="Alolo Logistics Janitorial Services"
+            className="hero-image"
+              />
+
+          <div className="hero-overlay">
+            <h3>Professional Janitorial & Facility Support</h3>
+
+            {[
+            'Primary focus: Janitorial Services — NAICS 561720',
+            'SDVOSB contracting advantage and partner-ready model',
+            'Service coverage for federal, local, and commercial facilities',
+            'Additional capabilities in logistics, PPE, and operational support',
+            ].map((item) => (
+          <div className="check-row" key={item}>
+            <CheckCircle size={20} />
+            <span>{item}</span>
+          </div>
+        ))}
+      </div>
+  </div>
               <div className="card-title-row">
                 <div className="icon-box"><ShieldCheck size={38} /></div>
                 <div>
