@@ -78,70 +78,64 @@ function App() {
 
       <main>
         <section className="hero">
-          <div className="container hero-grid">
-            <div>
-              <div className="badge">SDVOSB-ready government operations support company</div>
-              <h1>Professional janitorial, logistics, and facility support for government and commercial clients.</h1>
-              <p className="hero-text">
-                Alolo Logistics LLC helps agencies, facilities, and private organizations keep operations clean, supplied, compliant, and moving. Our primary focus is dependable janitorial service, supported by logistics, pest control coordination, and supply capabilities.
-              </p>
-              <a
-                className="btn btn-secondary large"
-                href="/alolo-capability-statement.docx"
-                download
-              >
-                Download Capability Statement
-            </a>
-              <div className="button-row">
-                <a className="btn btn-primary large" href="#contact">Discuss a Contract Opportunity <ArrowRight size={18} /></a>
-                <a className="btn btn-secondary large" href="#services">View Core Services</a>
-              </div>
-            </div>
+  <div className="container hero-grid">
+    <div>
+      <div className="badge">
+        SDVOSB-ready government operations support company
+      </div>
 
-            <div className="hero-card">
-              <img
-              src="/cleaning-crew.png"
-              alt="Alolo Logistics Janitorial Services"
-            className="hero-image"
-              />
+      <h1>
+        Professional janitorial, logistics, and facility support for government and commercial clients.
+      </h1>
 
-          <div className="hero-overlay">
-            <h3>Professional Janitorial & Facility Support</h3>
+      <p className="hero-text">
+        Alolo Logistics LLC helps agencies, facilities, and private organizations keep operations clean, supplied, compliant, and moving. Our primary focus is dependable janitorial service, supported by logistics, pest control coordination, PPE fulfillment, and operational support capabilities.
+      </p>
 
-            {[
-            'Primary focus: Janitorial Services — NAICS 561720',
-            'SDVOSB contracting advantage and partner-ready model',
-            'Service coverage for federal, local, and commercial facilities',
-            'Additional capabilities in logistics, PPE, and operational support',
-            ].map((item) => (
+      <a
+        className="btn btn-secondary large"
+        href="/alolo-capability-statement.docx"
+        download
+      >
+        Download Capability Statement
+      </a>
+
+      <div className="button-row">
+        <a className="btn btn-primary large" href="#contact">
+          Discuss a Contract Opportunity <ArrowRight size={18} />
+        </a>
+
+        <a className="btn btn-secondary large" href="#services">
+          View Core Services
+        </a>
+      </div>
+    </div>
+
+    <div className="hero-card">
+      <img
+        src="/cleaning-crew.png"
+        alt="Alolo Logistics Janitorial Services"
+        className="hero-image"
+      />
+
+      <div className="hero-overlay">
+        <h3>Professional Janitorial & Facility Support</h3>
+
+        {[
+          'Primary focus: Janitorial Services — NAICS 561720',
+          'SDVOSB contracting advantage and partner-ready model',
+          'Service coverage for federal, local, and commercial facilities',
+          'Additional capabilities in logistics, PPE, and operational support',
+        ].map((item) => (
           <div className="check-row" key={item}>
             <CheckCircle size={20} />
             <span>{item}</span>
           </div>
         ))}
       </div>
+    </div>
   </div>
-              <div className="card-title-row">
-                <div className="icon-box"><ShieldCheck size={38} /></div>
-                <div>
-                  <h3>Contract-ready service focus</h3>
-                  <p>Built for recurring facility needs</p>
-                </div>
-              </div>
-              {[
-                'Primary focus: Janitorial Services — NAICS 561720',
-                'SDVOSB contracting advantage and partner-ready model',
-                'Service coverage for federal, local, and commercial facilities',
-                'Additional capabilities in logistics, pest control, and supply support',
-              ].map((item) => (
-                <div className="check-row" key={item}>
-                  <CheckCircle size={20} />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+</section>
 
         <section id="services" className="section container">
           <div className="section-heading">
