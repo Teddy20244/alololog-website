@@ -80,9 +80,17 @@ function App() {
         <section className="hero">
   <div className="container hero-grid">
     <div>
-      <div className="badge">
-        SDVOSB-ready government operations support company
-      </div>
+      <div className="badge hero-badge">
+  <img
+    src="/sdvosb-logo.png"
+    alt="SDVOSB"
+    className="sdvosb-logo"
+  />
+
+  <span>
+    SDVOSB-ready government operations support company
+  </span>
+</div>
 
       <h1>
         Professional janitorial, logistics, and facility support for government and commercial clients.
