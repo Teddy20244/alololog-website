@@ -268,9 +268,16 @@ function App() {
       </div>
 
       <div className="mini-card">
-        <ShieldCheck size={20} />
-        <span>Service-Disabled Veteran-Owned Small Business (SDVOSB)</span>
-      </div>
+  <img
+    src="/sdvosb-logo.png"
+    alt="SDVOSB"
+    className="mini-sdvosb"
+  />
+
+  <span>
+    Certified SDVOSB Government Contractor
+  </span>
+</div>
 
       <div className="mini-card">
         <Building2 size={20} />
