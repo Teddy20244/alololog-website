@@ -454,3 +454,26 @@ footer {
 .capability-list li {
   margin-bottom: 8px;
 }
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.site-logo {
+  width: 58px;
+  height: auto;
+  object-fit: contain;
+}
+
+.brand {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.domain {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
