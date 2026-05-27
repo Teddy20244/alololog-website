@@ -22,12 +22,6 @@ const services = [
     description: 'Local and long-distance freight support, delivery coordination, and logistics services for public and private sector operations.',
   },
   {
-    icon: Zap,
-    title: 'Electrical Equipment & Supplies',
-    naics: 'NAICS: 423610 / 335999',
-    description: 'Sourcing and supply support for electrical apparatus, wiring supplies, components, and miscellaneous electrical equipment needs.',
-  },
-  {
   icon: ShieldCheck,
   title: 'PPE & Safety Supply Support',
   naics: 'Supply Capability',
@@ -215,8 +209,6 @@ function App() {
             <p><strong>561710:</strong> Exterminating and Pest Control Services</p>
             <p><strong>484110:</strong> General Freight Trucking, Local</p>
             <p><strong>484230:</strong> Specialized Freight Trucking, Long-Distance</p>
-            <p><strong>423610:</strong> Electrical Apparatus and Equipment Merchant Wholesalers</p>
-            <p><strong>335999:</strong> All Other Miscellaneous Electrical Equipment and Component Manufacturing</p>
             <p><strong>PPE:</strong> Personal Protective Equipment, safety supplies, gloves, masks, facility safety support, and government supply fulfillment</p>
           </div>
         </section>
